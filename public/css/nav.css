@@ -1,0 +1,53 @@
+.nav{
+    width:720px;
+    height: 50px;
+    font:bold 0/50px Arial;
+    text-align:center;
+    margin:40px auto 0;
+    background: #327EE7;
+    /*制作圆*/
+
+    /*制作导航立体风格*/
+
+}
+.nav a{
+    display: inline-block;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.nav a:hover{
+    -webkit-transform:rotate(10deg);
+    -moz-transform:rotate(10deg);
+    -o-transform:rotate(10deg);
+    -ms-transform:rotate(10deg);
+    transform:rotate(10deg);
+}
+
+
+.nav li{
+    position:relative;
+    display:inline-block;
+    padding:0 16px;
+    font-size: 13px;
+    text-shadow:1px 2px 4px rgba(0,0,0,.5);
+    list-style: none outside none;
+}
+/*使用伪元素制作导航列表项分隔线*/
+
+/*删除第一项和最后一项导航分隔线*/
+
+.nav a{
+    TEXT-DECORATION: none;
+}
+.nav a:hover{
+    color:#ff7300;
+    TEXT-DECORATION: underline;
+}
+
+.nav a:focus{
+    color:yellow;
+}
+

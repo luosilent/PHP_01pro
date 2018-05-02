@@ -1,0 +1,244 @@
+BODY {
+	FONT-SIZE: 12px; BACKGROUND: #fff; MARGIN: 0px; LINE-HEIGHT: 150%
+}
+A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff7300; TEXT-DECORATION: underline
+}
+TEXTAREA {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 0px; FONT: 12px/150% Arial, Helvetica, sans-serif; COLOR: #000; PADDING-TOP: 1px
+}
+INPUT {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 0px; FONT: 12px/150% Arial, Helvetica, sans-serif; COLOR: #000; PADDING-TOP: 1px
+}
+OBJECT {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 0px; FONT: 12px/150% Arial, Helvetica, sans-serif; COLOR: #000; PADDING-TOP: 1px
+}
+FORM {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 0px; FONT: 12px/150% Arial, Helvetica, sans-serif; COLOR: #000; PADDING-TOP: 1px
+}
+SELECT {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 0px; FONT: 12px/150% Arial, Helvetica, sans-serif; COLOR: #000; PADDING-TOP: 1px
+}
+.button {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BACKGROUND: #e3e3e3; PADDING-BOTTOM: 1px; BORDER-LEFT: #ccc 1px solid; WIDTH: auto; PADDING-TOP: 1px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 20px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.left {
+	FLOAT: left; WIDTH: auto
+}
+.right {
+	FLOAT: right; WIDTH: auto
+}
+.b {
+	FONT-WEIGHT: bold
+}
+.p {
+	TEXT-INDENT: 20px
+}
+.font12 {
+	FONT-SIZE: 12px
+}
+.font14 {
+	FONT-SIZE: 14px
+}
+.font14 A {
+	FONT-SIZE: 14px
+}
+.font14 A:hover {
+	FONT-SIZE: 14px
+}
+.colorf38033 {
+	COLOR: #f38033
+}
+.colorfFF6600 {
+	COLOR: #ff6600
+}
+.color000 {
+	COLOR: #000
+}
+.colorfff {
+	COLOR: #ffffff
+}
+.color434343 {
+	COLOR: #f7690a
+}
+.colorfe5705 {
+	COLOR: #fe5705
+}
+.grey {
+	COLOR: #999
+}
+.red {
+	COLOR: #ff0000
+}
+.blue A {
+	COLOR: #0033cc
+}
+.blue A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.GreenLink A {
+	COLOR: #729101; TEXT-DECORATION: underline
+}
+.GreenLink A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.GreenLink A:visited {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.l {
+	FLOAT: left
+}
+.r {
+	FLOAT: right
+}
+.margin-top {
+	MARGIN-TOP: 5px;
+}
+#MenuTop {
+	FLOAT: right; WIDTH: 390px
+}
+#MenuTop A {
+	COLOR: #289708
+}
+.MenuTop1 {
+	PADDING-LEFT: 25px; BACKGROUND: url(../image/menu1.gif) no-repeat left 50%; FLOAT: left; WIDTH: 55px; MARGIN-RIGHT: 5px
+}
+.MenuTop2 {
+	PADDING-LEFT: 25px; BACKGROUND: url(../image/menu2.gif) no-repeat left 50%; FLOAT: left; WIDTH: 80px; MARGIN-RIGHT: 5px
+}
+.MenuTop3 {
+	PADDING-LEFT: 25px; BACKGROUND: url(../image/menu3.gif) no-repeat left 50%; FLOAT: left; WIDTH: 55px; MARGIN-RIGHT: 5px
+}
+.MenuTop4 {
+	PADDING-LEFT: 25px; BACKGROUND: url(../image/menu4.gif) no-repeat left 50%; FLOAT: left; WIDTH: 55px; MARGIN-RIGHT: 5px
+}
+#Nav {
+	BACKGROUND: url(../image/nav_bg.gif) no-repeat; COLOR: #fff
+}
+#Nav A {
+	FONT-SIZE: 14px; MARGIN: 0px 7px; COLOR: #fff; TEXT-DECORATION: none
+}
+#Nav A:hover {
+	FONT-SIZE: 14px; COLOR: #fff; TEXT-DECORATION: underline
+}
+#Middle {
+	BACKGROUND: url(../image/middle_02.gif) no-repeat
+}
+#KC {
+	WIDTH: 348px; HEIGHT: 365px
+}
+#KC DIV {
+	FLOAT: left; MARGIN: 2px 6px; WIDTH: 100px; HEIGHT: 115px
+}
+#KC IMG {
+	CLEAR: both; BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; MARGIN-BOTTOM: 5px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.CommomBg {
+	BACKGROUND: url(../image/right_02.gif) repeat-y; TEXT-ALIGN: center
+}
+.News {
+	WIDTH: 165px; HEIGHT: auto
+}
+.News DIV {
+	PADDING-LEFT: 15px; BACKGROUND: url(../image/news_bg.gif) no-repeat; FLOAT: left; OVERFLOW: hidden; WIDTH: 150px; PADDING-TOP: 4px; HEIGHT: 20px; TEXT-ALIGN: left
+}
+.YSNews {
+	WIDTH: 315px; COLOR: #777; HEIGHT: auto
+}
+.YSNews A {
+	MARGIN-RIGHT: 20px
+}
+.YSNews DIV {
+	PADDING-LEFT: 15px; BACKGROUND: url(../image/news_bg2.gif) no-repeat; FLOAT: left; OVERFLOW: hidden; WIDTH: 300px; PADDING-TOP: 4px; HEIGHT: 20px; TEXT-ALIGN: left
+}
+.Search {
+	BACKGROUND: url(../image/search_02.gif) no-repeat 50% bottom; TEXT-ALIGN: left
+}
+.SearchInput {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(../image/search_input.gif) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 122px; HEIGHT: 19px; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px
+}
+.LoginInput {
+	BORDER-RIGHT: #8daa22 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #8daa22 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #8daa22 1px solid; WIDTH: 111px; PADDING-TOP: 0px; BORDER-BOTTOM: #8daa22 1px solid; HEIGHT: 18px
+}
+.ListTable {
+	MARGIN-BOTTOM: 10px; BORDER-BOTTOM: #ccc 1px dotted
+}
+.ListConten IMG {
+	VERTICAL-ALIGN: -15%
+}
+#KC2 {
+	WIDTH: 500px; HEIGHT: 365px
+}
+#KC2 DIV {
+	FLOAT: left; MARGIN: 10px; WIDTH: 100px; HEIGHT: 115px
+}
+#KC2 IMG {
+	CLEAR: both; BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; MARGIN-BOTTOM: 5px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.LoginNotice {
+	BORDER-RIGHT: #71ab02 1px solid; BORDER-TOP: #71ab02 1px solid; PADDING-LEFT: 25px; BACKGROUND: url(/image/note.gif) #f6fde9 no-repeat 5px 50%; BORDER-LEFT: #71ab02 1px solid; WIDTH: 225px; PADDING-TOP: 3px; BORDER-BOTTOM: #71ab02 1px solid; HEIGHT: 22px; TEXT-ALIGN: left
+}
+.LoginNoticeError {
+	BORDER-RIGHT: #ea6657 1px solid; BACKGROUND-POSITION: 5px 50%; BORDER-TOP: #ea6657 1px solid; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(/image/error.gif); BORDER-LEFT: #ea6657 1px solid; WIDTH: 225px; PADDING-TOP: 3px; BORDER-BOTTOM: #ea6657 1px solid; BACKGROUND-REPEAT: no-repeat; HEIGHT: 22px; BACKGROUND-COLOR: #fde4d9; TEXT-ALIGN: left
+}
+.Error {
+	DISPLAY: none; PADDING-LEFT: 20px; BACKGROUND: url(/image/error.gif) no-repeat 3px 50%; COLOR: #ff0000; TEXT-ALIGN: left
+}
+#Manage {
+	FONT-SIZE: 14px; MARGIN-LEFT: 7px; WIDTH: 183px
+}
+.SubMenu {
+	BACKGROUND: #B4CCED; MARGIN-BOTTOM: 1px; WIDTH: 183px; PADDING-TOP: 3px; LETTER-SPACING: 10px; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.SubMenu lu {
+	LIST-STYLE-POSITION: inside; FONT-SIZE: 12px; LETTER-SPACING: 0px
+}
+LI {
+	LIST-STYLE-POSITION: inside; FONT-SIZE: 12px; LETTER-SPACING: 0px
+}
+.CurrentSubMenu {
+	FONT-WEIGHT: bold; BACKGROUND: #327EE7; MARGIN-BOTTOM: 1px; WIDTH: 183px; COLOR: #fff; PADDING-TOP: 3px; LETTER-SPACING: 10px; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.CurrentSubMenu A {
+	COLOR: #fff
+}
+.CurrentSubMenu A:hover {
+	COLOR: #fff
+}
+.TdPadding TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.db {
+	MARGIN-TOP: 5px; FONT-SIZE: 12px; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left
+}
+.db TR {
+	
+}
+.arrow {
+	FONT-FAMILY: webdings
+}
+.cPopText {
+	BORDER-RIGHT: #333 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #333 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 12px; BACKGROUND: #fff; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #333 1px solid; LINE-HEIGHT: 22px; PADDING-TOP: 2px; BORDER-BOTTOM: #333 1px solid; FONT-FAMILY: Tahoma, Verdana; TEXT-ALIGN: left
+}
+.ProductList TD {
+	BORDER-RIGHT: #ccc 1px; BORDER-TOP: #ccc 1px dashed; MARGIN-BOTTOM: 10px; BORDER-LEFT: #ccc 1px; BORDER-BOTTOM: #ccc 1px dashed
+}
+.noteNow {
+	BACKGROUND: #edfde3; COLOR: #000
+}
+.note {
+	BACKGROUND: #f7f7f7; COLOR: #666
+}
+.noteError {
+	COLOR: #666; BACKGROUND-COLOR: #fad6e0
+}
+
