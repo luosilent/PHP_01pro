@@ -7,6 +7,7 @@
 <li>订餐管理</li>
 
 ## 数据库
+<pre>
 <code>
 $hostname = 'localhost';
 $dbname = 'test';
@@ -18,7 +19,7 @@ $pdo = new PDO( $dsn, $dbuser, $dbpwd) or die("连接失败!");
 $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 $pdo->exec( "SET NAMES utf8" );
 </code>
-
+</pre>
 <pre><code>
 
 CREATE DATABASE `dtest`;
