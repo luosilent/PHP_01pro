@@ -7,18 +7,7 @@
 <li>订餐管理</li>
 
 ## 数据库
-<pre>
-<code>
-$hostname = 'localhost';
-$dbname = 'test';
-$dbuser = 'test';
-$dbpwd = 'test1';
-$dsn = 'mysql:host=' . $hostname . ';dbname=' . $dbname;
-
-$pdo = new PDO( $dsn, $dbuser, $dbpwd) or die("连接失败!");
-$pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-$pdo->exec( "SET NAMES utf8" );
-</code>
+<em>MySQL PDO连接数据库</em>
 </pre>
 <pre><code>
 
