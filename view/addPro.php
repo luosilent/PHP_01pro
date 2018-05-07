@@ -132,8 +132,8 @@
             <td colspan="3">
             <?php if(is_array($depart)){
                 foreach ($depart as $value) {
-//                    echo '<span style="margin-right:15px"><input type="radio" disabled  value="'.$value['id'].'" '.(($value['id']==$pro['depart_id'])?"checked":"").'>'.$value['depart_name'].'</span>';
-                      echo $value;
+                    echo '<span style="margin-right:15px"><input type="radio" '.(($value["id"]==$userInfo["depart_id"])?"checked":"").' name="departId"  value="'.$value['id'].'">'.$value['depart_name'].'</span>';
+                      
                 }
             }?>
             </td>
