@@ -1,6 +1,6 @@
 <?php
 require_once '../helper/functions.php';
-header("content-type:text/html;charset=utf-8");
+header("content-type:text/html;charset=utf-8");  
 $start_time = '08:00'; //每天订餐开始时间
 $end_time = '17:30';
 $validate_time = time_validate('08:00:00', '17:30:00');
@@ -9,7 +9,6 @@ session_start();
 $_POST = array_merge($_POST, $_GET);
 $pro_name = isset($_COOKIE['pro_name']) ? $_COOKIE['pro_name'] : '';
 $pro_pass = isset($_COOKIE['pro_pass']) ? $_COOKIE['pro_pass'] : '';
-header('content-type:text/html; charset=gbk');
 $uid = check_user_info($pro_name,$pro_pass);
 
 

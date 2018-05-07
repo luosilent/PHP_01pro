@@ -5,7 +5,7 @@ error_reporting(0);
 //弹出提示，默认跳到订餐页面，根据第二个参数判断具体跳到哪一页
 function notice_href($notice,$page = '../view/dinner.php'){
 
-    echo '<script type="text/javascript">';
+    echo '<script charset="utf-8" type="text/javascript" >';
     echo "alert('".$notice."');";
     echo ($page == 'dinner.php') ? 'window.location="dinner.php"': 'window.location="../view/dinner.php"';
     echo '</script>';

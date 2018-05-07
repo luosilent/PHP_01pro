@@ -174,34 +174,44 @@ $pro_pass = isset($_COOKIE['pro_pass']) ? $_COOKIE['pro_pass'] : '';
     <?php endif; ?>
 
         <div id="record-list">
+        
     <?php
 
     $records = get_records();
+        
+        echo "<table style='border:1px dashed black;width:160px'>";
+        echo "<tbody>"; 
+        echo "<div>订餐列表</div>";
+        echo '<th>共有<em class="count">' . count($records) . '</em>人订餐</th>';
 
-        echo '<h2 >共有<em class="count">' . count($records) . '</em>人订餐</h2>';
+    
     $records = filter_records($records);//也就是把所有今天订餐的人按部分变成一个二维数组
 
     foreach (array_keys($records) as $v) {
 
         if (array_key_exists($v, $records)) {
 
-            echo '<dl >';
+            echo '<tr>';
 
-            echo '<dt>' . $v . '<em class="count">' . count($records[$v]) . '</em>人订餐</dt>';//$v 是部门名称
+            echo '<td>' . $v . '<em class="count">' . count($records[$v]) . '</em>人订餐</td>';//$v 是部门名称
+            echo '</tr>';
 
             foreach ($records[$v] as $value) {
 
                 //$records是一个按部门来分的一个二维数组
-
-                echo "<dd>{$value['username']} {$value['time']}</dd>";
-
+                echo '</tr>';
+                echo "<td>{$value['username']} {$value['time']}</td>";
+                echo '</tr>';
             };
-            echo '</dl>';
+            
         }
     };
+    echo "</tbody>";   
+    echo "</table>";
+
     ?>
         </div>
-
+       
     
         <script src="../public/js/jquery-2.1.1.min.js"></script>
         <script src="../public/js/time.js"></script>
