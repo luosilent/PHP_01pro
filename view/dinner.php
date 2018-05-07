@@ -11,7 +11,7 @@ $pro_pass = isset($_COOKIE['pro_pass']) ? $_COOKIE['pro_pass'] : '';
 <!DOCTYPE HTML PUBLIC "-//W3C//Dtd HTML 4.01 Transitional//EN" "http://www.w3c.org/tr/1999/REC-HTML401-19991224/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xHTML">
     <head>
-        <title>任务管理系统</title>
+        <title>订餐管理系统</title>
         <meta http-equiv=Content-Type content="text/HTML; charset=utf-8">
         <link href="../public/css/pm.css" type=text/css rel=stylesheet>
         <link rel="stylesheet" type="text/css" href="../public/css/nav.css">
