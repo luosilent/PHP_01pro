@@ -21,13 +21,13 @@
     </head>
     <body>
         <table align="center">
-            <tr><td><img src="public/image/logo.gif" width="236px" height="61px"></td></tr>
+            <tr><td><img src="public/image/logos.jpg" width="236px" height="61px"></td></tr>
             <!--导航栏-->
-            <tr><td background="public/image/nav_bg.gif" width="760px" height="30px"><span style="margin-left:10px">技术部任务管理 > <span id="two">登录界面</span></span></td></tr>
+            <tr><td background="public/image/nav_bg.gif" width="760px" height="30px"><span style="margin-left:10px">综合管理系统 > <span id="two">登录界面</span></span></td></tr>
         </table>
         <form action="controller/login.php" method="post" name="ind">
             <table align="center">
-                <tr><td width="380px" height="200px"><img src="public/image/rightpic.gif"></td>
+                <tr><td width="380px" height="200px"><img src="public/image/rightpics.jpg"></td>
                     <td width="350px" height="200px">
                         <table>
                             <tr class="register">

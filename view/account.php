@@ -12,6 +12,7 @@
         <title>项目管理系统</title>
         <meta http-equiv=Content-Type content="text/HTML; charset=utf-8">
         <link href="../public/css/pm.css" type=text/css rel=stylesheet>
+        <link rel="stylesheet" type="text/css" href="../public/css/nav.css">
             <style type="text/css">
                 .myPage{
                     padding-left: 5px;
@@ -20,13 +21,18 @@
             </style>
     </head>
     <body onload=show()>
-        <table class=margin-top cellSpacing=0 cellPadding=0 width=760 align=center border=0>
+        <ul class="nav">
+        <li><a href="index.php">任务系统</a></li>
+        <li><a href="dinner.php">订餐系统</a></li>
+        <li><a href="">图书系统</a></li>
+    </ul>
+        <!-- <table class=margin-top cellSpacing=0 cellPadding=0 width=760 align=center border=0>
             <tbody>
             <tr>
                 <td width=380><img height=61 alt=技术部项目开发/修改系统 src="../public/image/logo.gif" width=236 border=0></td>
             </tr>
             </tbody>
-        </table>
+        </table> -->
         <table class="margin-top b" id=Nav cellSpacing=0 cellPadding=0 width=760 align=center border=0>
             <tr><td background="../public/image/nav_bg.gif" width="760px" height="30px"><span style="margin-left:10px">技术部任务管理 > <span id="two">帐号管理</span></span></td></tr>
         </table>
